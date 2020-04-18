@@ -4,6 +4,12 @@
     border-color: black;
     border-style: solid;
 }
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: 868px 862px;
+    background-attachment: fixed;
+}
 img {
     border:3px solid #021a40;
 }
@@ -21,14 +27,16 @@ img {
 }
 #caption {
     height: 80px;
+    color: rgb(54, 23, 126);
 }
 #media1 {
     background-color: rgb(122, 121, 121);
     color: white;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 500px;
+    margin-right: 400px;
     padding-top:30px;
+    max-width: 75%;
 
 }
 #media2 {
@@ -36,8 +44,9 @@ img {
     color:  rgb(122, 121, 121);
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 500px;
+    margin-right: 400px;
     padding-top: 30px;
+    max-width: 75%;
 
 }
 #media3 {
@@ -45,8 +54,9 @@ img {
     color: white;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 500px;
+    margin-right: 400px;
     padding-top: 30px;
+    max-width: 75%;
 
 }
 #media4 {
@@ -54,8 +64,9 @@ img {
     color:  rgb(122, 121, 121);
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 500px;
+    margin-right: 400px;
     padding-top: 30px;
+    max-width: 75%;
 
 }
 #media5 {
@@ -63,8 +74,9 @@ img {
     color: white;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 500px;
+    margin-right: 400px;
     padding-top: 30px;
+    max-width: 75%;
 
 }
 #media6 {
@@ -72,14 +84,16 @@ img {
     color:  rgb(122, 121, 121);
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 500px;
+    margin-right: 400px;
     padding-top: 30px;
+    max-width: 75%;
 
 }
 #media {
     background-color: white
     color: black;
     margin-left: 150px;
+    width: 900px;
 
 
 
