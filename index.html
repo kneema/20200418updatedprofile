@@ -7,84 +7,88 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Home work Week 2</title>
   </head>
-  <body>
-      <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="https://kneema.github.io/20200418updatedprofile/">NIMA SHERPA</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="https://kneema.github.io/20200418updatedprofile/">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-     <!--Main Content-->
-      <div class="container-xs">
-        <div class="row">
-          <div class="col">
-          </div>
-          <div class="col-6">
-        <!--About Me-->
-           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <figure class="figure">
-                    <figcaption class="figure-caption">Hi my name is Nima, I'm from lovely Vail, Colorado</figcaption>
-                    <img src="https://www.travelassociates.com/sites/v2.travel-associates.com.au/files/Celebrity_The_Vail_Colorado.jpg" class="d-block w-100" alt="Vail" width="1000px" height="810px">
-                  </figure>
-                <div class="carousel-caption d-none d-md-block">
-                </div>
-              </div>
-              <div class="carousel-item">
-                <figure class="figure">
-                    <figcaption class="figure-caption">I studied engineering and science as an undergrad. I also completed an MBA in 2018 and am currently completing my PhD and Masters of Science on Outer Space Resources.</figcaption>
-                <img src="https://secure.meetupstatic.com/photos/event/1/5/7/9/highres_476165497.jpeg" class="d-block w-100" alt="Space" width="1000px" height="810px">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
-              </div>
-              <div class="carousel-item">
-                <figure class="figure">
-                    <figcaption class="figure-caption">I love the outdoors, I like video games, golf, and art. I also love to paint abstract art in acrylic, oil, and combined mediums.</figcaption> 
-                <img src="https://uploads5.wikiart.org/images/jean-michel-basquiat/bird-on-money.jpg!Large.jpg" class="d-block w-100" alt="Basquiat" width="1000px" height="810px">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
-              </div>
+<body>
+ <!--Navbar-->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="https://kneema.github.io/20200418updatedprofile/">NIMA SHERPA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://kneema.github.io/20200418updatedprofile/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--Main Content-->
+<div class="container-xs">
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-6">
+    <Div id="bio">
+      <h1>About Me</h1>
+      <!--About Me-->
+      <div id="carouselExampleCaptions" class="carousel slide" id="slides" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <figure class="figure">
+                <figcaption class="figure-caption">Hi my name is Nima, I'm from lovely Vail, Colorado</figcaption>
+                <img src="https://www.travelassociates.com/sites/v2.travel-associates.com.au/files/Celebrity_The_Vail_Colorado.jpg" class="d-block w-100" alt="Vail" id="imgslide">
+              </figure>
+            <div class="carousel-caption d-none d-md-block">
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
+          <div class="carousel-item">
+            <figure class="figure">
+                <figcaption class="figure-caption">I studied engineering and science as an undergrad. I also completed an MBA in 2018 and am currently completing my PhD and Masters of Science on Outer Space Resources.</figcaption>
+            <img src="https://secure.meetupstatic.com/photos/event/1/5/7/9/highres_476165497.jpeg" class="d-block w-100" alt="Space" id="imgslide">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
           </div>
-          <div class="col-1">
+          <div class="carousel-item">
+            <figure class="figure">
+                <figcaption class="figure-caption">I love the outdoors, I like video games, golf, and art. I also love to paint abstract art in acrylic, oil, and combined mediums.</figcaption> 
+            <img src="https://uploads5.wikiart.org/images/jean-michel-basquiat/bird-on-money.jpg!Large.jpg" class="d-block w-100" alt="Basquiat" id="imgslide">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      </div>
+      <div class="col-1">
+    </Div>
 
-      
+    <div id="name">
+       <h2>Nima Sherpa</h2>
+    </div>
+    <div id="contact">
+        <h3>Here are some ways you can contact me</h3>
         <!--Card-->
             <div class="card" style="width: 10rem;">
                 <img src="https://pbs.twimg.com/profile_images/1048421542307061762/CyvBb9Bc_400x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card-body" id="cardbody">
                  <h5 class="card-title">Nima Sherpa</h5>
                 <p class="card-text">To see more of my coding content, you can find me on <a href="https://github.com/kneema">github.</a></p>
                 <p class="card-text">View my profile on <a href="https://www.linkedin.com/in/nima-sherpa-22459178/">LinkedIn</a>to learn more about my professional background.</p>
@@ -92,9 +96,8 @@
             </div>
           </div>
           <div class="col">
-          
           </div>
-        </div>
+      </div>
        
 
   
