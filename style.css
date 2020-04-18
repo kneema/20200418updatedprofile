@@ -20,12 +20,65 @@ img {
     height: 600px;
 }
 
-#media {
-    background-color: whitesmoke;
-    color: black;
+#media1 {
+    background-color: rgb(122, 121, 121);
+    color: white;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 500px;
+    padding-top:30px;
+
+}
+#media2 {
+    background-color:white;
+    color:  rgb(122, 121, 121);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 500px;
+    padding-top: 30px;
+
+}
+#media3 {
+    background-color: rgb(122, 121, 121);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 500px;
+    padding-top: 30px;
+
+}
+#media4 {
+    background-color:white;
+    color:  rgb(122, 121, 121);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 500px;
+    padding-top: 30px;
+
+}
+#media5 {
+    background-color: rgb(122, 121, 121);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 500px;
+    padding-top: 30px;
+
+}
+#media6 {
+    background-color:white;
+    color:  rgb(122, 121, 121);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 500px;
+    padding-top: 30px;
+
+}
+#media {
+    background-color: white
+    color: black;
+    margin-left: 150px;
+
 
 }
 
