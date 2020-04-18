@@ -16,10 +16,12 @@ img {
     margin-right: 100px;
 }
 #imgslide {
-    width: 800px;
-    height: 600px;
+    width: 600px;
+    height: 380px;
 }
-
+#caption {
+    height: 80px;
+}
 #media1 {
     background-color: rgb(122, 121, 121);
     color: white;
@@ -80,85 +82,24 @@ img {
     margin-left: 150px;
 
 
-}
 
-#bio {
-    background-color: aliceblue;
-    text-align: center;
-    box-shadow: 0px 0px 10px 2px blue;
-    width: 420px;
-    height: 40px;
-    margin: 10px auto;
-    padding: 20px auto;
-    background-color: royalblue;
-    color: white;
-}
-
-#name {
-    background-color: aliceblue;
-    margin: 10px auto;
-    height: 40px;
-    width: 440px;
-    box-shadow: 0px 0px 10px 2px orange;
-    text-align: center;
-    margin-bottom: 90px;
 }
 
 #picture {
     height: 168px;
     width:  300px;
     margin: 10px auto;
-    align-content: center;
-    box-shadow: 0px 0px 8px 2px hotpink;
+    align-content: left;
+    box-shadow: 0px 0px 8px 2px rgb(105, 153, 255);
     margin-bottom: 30px;
 }
 
-#textleft {
-    margin-left: 200px;
-    background-color: #ffc6c4;
-    width: 20%;
-    height: 300px;
-    float: left;
-    box-shadow: 0px 0px 8px 2px red;
-    font-family: Helvetica;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-top: 2px solid maroon;
-    border-left: 2px solid maroon;
-    border-right: 2px solid maroon;
-    border-bottom: 2px solid maroon;
-}
-
-#textright {
-    float: right;
-    background-color: #AED6F1;
-    width: 20%;
-    height: 300px;
-    margin-right: 200px;
-    box-shadow: 0px 0px 8px 2px blue;
-    font-family: Helvetica;
-    font-style: oblique;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-top: 3px solid navy;
-    border-left: 3px solid navy;
-    border-right: 3px solid navy;
-    border-bottom: 3px solid navy;
-}
 
 #contact {
     padding: 5px;
-    background-color: silver;
+    background-color: rgb(175, 181, 235);
     width: 25%;
     height: 200px;
-    margin: 10px auto;
-    box-shadow: 0px 0px 8px 2px yellow;
-}
-
-#lefthead {
-    font-weight: bold;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 8px 2px rgb(221, 238, 240);
+    color: rgb(54, 23, 126);
 }
